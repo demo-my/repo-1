@@ -9,24 +9,27 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Agency - Website</title>
+    <title>Gecko Media- Website</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="file:///C|/xampp/htdocs/startbootstrap-agency-gh-pages/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
-    <link href="file:///C|/xampp/htdocs/startbootstrap-agency-gh-pages/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
 
     <!-- Theme CSS -->
-    <link href="file:///C|/xampp/htdocs/startbootstrap-agency-gh-pages/css/agency.min.css" rel="stylesheet">
-        <link href="file:///C|/xampp/htdocs/startbootstrap-agency-gh-pages/css/agency.css" rel="stylesheet">
-        <script src="file:///C|/xampp/htdocs/startbootstrap-agency-gh-pages/js/agency.min.js"></script>
+    <link href="css/agency.min.css" rel="stylesheet">
+        <link href="css/agency.css" rel="stylesheet">
 
-    
+
+
+        <script src="js/agency.min.js"></script>
+
+
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -40,32 +43,44 @@
 <body id="page-top" class="index">
 
 
-    <!-- Navigation -->
-    <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top">
+<!------------------------------------------------- Navigation ------------------------------------------------------------->
+
+
+
+    <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top" style="  border-bottom: 1px solid rgba(255,255,255,.4) !important;">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header page-scroll">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">Logo</a>
+                <img src="img/Pastelbranding-logo.jpg">
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-           
                 <ul class="nav navbar-nav navbar-right">
                     <li class="hidden">
                         <a href="#page-top"></a>
                     </li>
+                       <li> <a class="navbar-brand page-scroll" href="#page-top">Home</a></li>
+
                     <li>
-                        <a class="page-scroll" href="#services">Services</a>
+                         <a class="page-scroll" href="#about">About</a>
+
                     </li>
+
+                    <li>
+                         <a class="page-scroll" href="#outline">Outline</a>
+
+                    </li>
+
                     <li>
                         <a class="page-scroll" href="#portfolio">Portfolio</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#about">About</a>
+                        <a class="page-scroll" href="#services">Services</a>
+
                     </li>
                     <li>
                         <a class="page-scroll" href="#team">Team</a>
@@ -75,302 +90,313 @@
                     </li>
                 </ul>
             </div>
-            <div class="shrink">
-            </div>
+
             <!-- /.navbar-collapse -->
         </div>
         <!-- /.container-fluid -->
     </nav>
 
-    <!-- Header -->
+<!----------------------------------------------------- Header slider -------------------------------------------------------->
     <header>
-        <div class="container slider">
+    <div class="carousel fade-carousel slide carousel-fade" data-ride="carousel" data-interval="3000" id="bs-carousel">
+  <!-- Overlay -->
 
-    <div id="mycarousel" class="carousel slide" data-ride="carousel">
   <!-- Indicators -->
   <ol class="carousel-indicators">
-    <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
-    <li data-target="#mycarousel" data-slide-to="1"></li>
-    <li data-target="#mycarousel" data-slide-to="2"></li>
-    <li data-target="#mycarousel" data-slide-to="3"></li>
-    <li data-target="#mycarousel" data-slide-to="4"></li>
+    <li data-target="#bs-carousel" data-slide-to="0" class="active"></li>
+    <li data-target="#bs-carousel" data-slide-to="1"></li>
+    <li data-target="#bs-carousel" data-slide-to="2"></li>
   </ol>
 
   <!-- Wrapper for slides -->
-  <div class="carousel-inner" role="listbox">
-    <div class="item">
-        <img src="file:///C|/xampp/htdocs/startbootstrap-agency-gh-pages/img/header-bg.jpg" data-color="lightblue" alt="First Image">
-        <div class="intro-text" style="text-align:center;">
-                <div class="intro-lead-in">Welcome To our brand agency!</div>
-                <div class="intro-heading">It's Nice To Meet You</div>
-                <a href="#services" class="page-scroll btn btn-xl">Find out more</a>
-            </div>
-        <div class="carousel-caption">
-                </div>
+  <div class="carousel-inner" style="background-color:#000;">
+    <div class="item slides active">
+      <div class="slide-1">
+          <div class="overlay"></div>
+      </div>
+      <div class="hero">
+        <hgroup>
+            <h1>We are creative</h1>
+            <h3>Welcome To our brand agency!</h3>
+        </hgroup>
+           <a href="#about">
+			<button class="btn btn-hero btn-lg" role="button">Find out more</button></a>
+      		</div>
+    			</div>
+    <div class="item slides">
+      <div class="slide-2">
+          <div class="overlay"></div>
+      </div>
+      <div class="hero">
+        <hgroup>
+            <h1>We are smart</h1>
+            <h3>Get start your next awesome project</h3>
+        </hgroup>
+        <button class="btn btn-hero btn-lg" role="button">View all content</button>
+      </div>
     </div>
-    <div class="item">
-        <img src="https://unsplash.it/2000/1250?image=689" data-color="firebrick" alt="Second Image">
-        <div class="intro-text" style="text-align:center;">
-                <div class="intro-lead-in">Welcome To our brand agency!</div>
-                <div class="intro-heading">It's Nice To Meet You</div>
-                <a href="#services" class="page-scroll btn btn-xl">Find out more</a>
-            </div>
-        <div class="carousel-caption">
-        </div>
-    </div>
-    <div class="item">
-        <img src="https://unsplash.it/2000/1250?image=675" data-color="violet" alt="Third Image">
-        <div class="intro-text" style="text-align:center;">
-                <div class="intro-lead-in">Welcome To our brand agency!</div>
-                <div class="intro-heading">It's Nice To Meet You</div>
-                <a href="#services" class="page-scroll btn btn-xl">Find out more</a>
-            </div>
-        <div class="carousel-caption">
-        </div>
-    </div>
-    <div class="item">
-        <img src="https://unsplash.it/2000/1250?image=658" data-color="lightgreen" alt="Fourth Image">
-        <div class="intro-text" style="text-align:center;">
-                <div class="intro-lead-in">Welcome To our brand agency!</div>
-                <div class="intro-heading">It's Nice To Meet You</div>
-                <a href="#services" class="page-scroll btn btn-xl">Find out more</a>
-            </div>
-        <div class="carousel-caption">
-        </div>
-    </div>
-    <div class="item">
-        <img src="https://unsplash.it/2000/1250?image=638" data-color="tomato" alt="Fifth Image">
-        <div class="intro-text" style="text-align:center;">
-                <div class="intro-lead-in">Welcome To our brand agency!</div>
-                <div class="intro-heading">It's Nice To Meet You</div>
-                <a href="#services" class="page-scroll btn btn-xl">Find out more</a>
-            </div>
-        <div class="carousel-caption">
-        </div>
+    <div class="item slides">
+      <div class="slide-3">
+          <div class="overlay"></div>
+      </div>
+      <div class="hero">
+        <hgroup>
+            <h1>We are amazing</h1>
+            <h3>Get start your next awesome project</h3>
+        </hgroup>
+        <button class="btn btn-hero btn-lg" role="button">See all features</button>
+      </div>
     </div>
   </div>
-
-  <!-- Controls -->
-  <a class="left carousel-control" href="#mycarousel" role="button" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="right carousel-control" href="#mycarousel" role="button" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
 </div>
+
+ </header>
+
+<!------------------------------------------------- About Section ------------------------------------------------------------>
+<section id="about">
+ <div class="container">
+ <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">About</h2>
+                    <h3 class="section-subheading text-muted" style="color:#08A8D8;">Our Values are as follows</h3>
+                </div>
+            </div>
+            
+            
+            
+<div class="container" id="tourpackages-carousel">
+    <div class="row">
+       <div class="col-xs-12 col-sm-6 col-md-3">
+         <div class="thumbnail">
+           <img src="img/bg-about.png" alt="">
+             <div class="caption">
+               <h4 class="service-heading" style="color:#08A8D8;">Creative Discipline</h4>
+                  <p class="text-muted">We encourage our clients and employees to recognise creativity as a resource that should be nurtured for social and economic development.It should be managed delicately with personal attention to all the details that help produce great works of communication.
+
+            </div>
+          </div>
+        </div>
         
-    </header>
-    
-    
-
-
-    <!-- Services Section -->
-    <section id="services">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Services</h2>
-                    <h3 class="section-subheading text-muted">Below are kind of services we offer.</h3>
-                </div>
+<div class="col-xs-12 col-sm-6 col-md-3">
+     <div class="thumbnail">
+         <img src="img/thumb/professional.jpg" alt="">
+            <div class="caption">
+                <h4 class="service-heading" style="color:#08A8D8;">Professionalism</h4>
+                   <p class="text-muted">We take our work seriously.From receiving the client’s brief to delivering the final         product, we aim to interact with everyone in the most professional manner. Timelines are sacrosanct and our services and products will most often exceed your expectations.
+</p>
             </div>
-            <div class="row text-center">
-                <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-flask fa-stack-1x fa-inverse"></i>
-                    </span>
-                    <h4 class="service-heading">Brand Identy</h4>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
-                </div>
-                <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-umbrella fa-stack-1x fa-inverse"></i>
-                    </span>
-                    <h4 class="service-heading">Creative Idea</h4>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
-                </div>
-                <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-cloud fa-stack-1x fa-inverse"></i>
-                    </span>
-                    <h4 class="service-heading">Owesome Support</h4>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
-                </div>
-            </div>
+          </div>
         </div>
-    </section>
 
-    <!-- Portfolio Grid Section -->
-    <section id="portfolio" class="bg-light-gray">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading" style="color:#fff;">Portfolio</h2>
-                    <h3 class="section-subheading text-muted" style="color:#fff;">The following are some of our works we have done.</h3>
-                </div>
+<div class="col-xs-12 col-sm-6 col-md-3">
+    <div class="thumbnail">
+      <img src="img/thumb/inovation.jpg" alt="">
+          <div class="caption">
+             <h4 class="service-heading" style="color:#08A8D8;">Innovation</h4>
+                <p class="text-muted">We aim to ignite,nurture and apply our technical proficiency and analytical thinking to engage the target audiences’visual imagination in the most memorably way.In a world cluttered with multiple media messages. </p>
             </div>
-            <div class="row">
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="file:///C|/xampp/htdocs/startbootstrap-agency-gh-pages/img/portfolio/roundicons.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Round Icons</h4>
-                        <p class="text-muted">Graphic Design</p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="../img/portfolio/startup-framework.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Startup Framework</h4>
-                        <p class="text-muted">Website Design</p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="file:///C|/xampp/htdocs/startbootstrap-agency-gh-pages/img/portfolio/treehouse.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Treehouse</h4>
-                        <p class="text-muted">Website Design</p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="file:///C|/xampp/htdocs/startbootstrap-agency-gh-pages/img/portfolio/golden.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Golden</h4>
-                        <p class="text-muted">Website Design</p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="file:///C|/xampp/htdocs/startbootstrap-agency-gh-pages/img/portfolio/escape.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Escape</h4>
-                        <p class="text-muted">Website Design</p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="file:///C|/xampp/htdocs/startbootstrap-agency-gh-pages/img/portfolio/dreams.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Dreams</h4>
-                        <p class="text-muted">Website Design</p>
-                    </div>
-                </div>
-            </div>
+          </div>
         </div>
-    </section>
-<hr>
-    <!-- About Section -->
-    <section id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading" style="color:#fff;">About</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
-                </div>
+        
+<div class="col-xs-12 col-sm-6 col-md-3">
+   <div class="thumbnail">
+      <img src="img/thumb/development.jpg" alt="">
+         <div class="caption">
+            <h4 class="service-heading" style="color:#08A8D8;">Holistic Development</h4>
+               <p class="text-muted">The creative process is both dynamic and adaptable,It considers all factors that are engaged in the expression of a message,As we build relations within our team and our clients,we strive to reflect the environment of growth and development.
+</p>
             </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <ul class="timeline">
-                        <li>
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="file:///C|/xampp/htdocs/startbootstrap-agency-gh-pages/img/about/1.jpg" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>2009-2011</h4>
-                                    <h4 class="subheading">Our Humble Beginnings</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="timeline-inverted">
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="file:///C|/xampp/htdocs/startbootstrap-agency-gh-pages/img/about/2.jpg" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>March 2011</h4>
-                                    <h4 class="subheading">An Agency is Born</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="file:///C|/xampp/htdocs/startbootstrap-agency-gh-pages/img/about/3.jpg" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>December 2012</h4>
-                                    <h4 class="subheading">Transition to Full Service</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="timeline-inverted">
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="file:///C|/xampp/htdocs/startbootstrap-agency-gh-pages/img/about/4.jpg" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>July 2014</h4>
-                                    <h4 class="subheading">Phase Two Expansion</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="timeline-inverted">
+          </div>
+        </div>
+
+  </div><!-- End row -->
+</div><!-- End container -->
+
+
+<div class="container-fluid price">
+  	<div class="col-md-6 col-sm-12 teamPlan">
+       <h3>Our Mission</h3>
+         <p> To provide high standard and effective communication by utilising diverse media vehicles that ensure the best quality results are attained.</p>
+    </div>
+<div class="col-md-6 col-sm-12 teamPlan">
+	<h3>Our Vision</h3>
+       <p>In Gecko Media Interactive our vision that makes us successful and going is to be the regional leader in creative expression using multiple media.</p>
+                    </div>
+      </div>
+  </div>
+</div>
+</section>
+
+
+<!------------------------------------------------- Outline Section------------------------------------------>
+<section id="outline">
+    <div class="container">
+       <div class="row">
+          <div class="col-lg-12 text-center">
+             <h2 class="section-heading" style="color:#000;">How we do it all</h2>
+                <h3 class="section-subheading text-muted">The Gecko Media Interactive Tree.</h3>
+           </div>
+        </div>
+            
+<div class="row">
+   <div class="col-lg-12">
+     <ul class="timeline">
+       	<li>
+         	<div class="timeline-image">
+               <img class="img-circle img-responsive" src="img/about/1.jpg" alt=""></div>
+                   <div class="timeline-panel">
+                       <div class="timeline-heading">
+                            <h4 style="color:#000; font-size:20px;">1.</h4>
+                               <h4 class="subheading" style="color:#000;">Client Brief</h4>
+                         </div>
+       <div class="timeline-body">
+        	<p class="text-muted" style="color:#fff;">This process is the first attempt to describe the possible requirements of the project.The project brief is the key document upon which the design will be based.</p>
+       </div>
+          </div>
+ 		</li>
+        
+        
+<li class="timeline-inverted">
+   <div class="timeline-image">
+     	<img class="img-circle img-responsive" src="img/about/2.jpg" alt=""></div>
+           <div class="timeline-panel">
+              <div class="timeline-heading">
+                 <h4 style="color:#000; font-size:20px;">2.</h4>
+                     <h4 class="subheading" style="color:#000;">Market Research</h4>
+            </div>
+<div class="timeline-body">
+   <p class="text-muted" style="color:#fff;">In this step the team takes the action or activity of gathering information about the clients' needs and preferences.</p>
+           </div>
+</div>
+</li>
+
+
+<li>
+ 	<div class="timeline-image">
+   		<img class="img-circle img-responsive" src="img/about/3.jpg" alt=""></div>
+            <div class="timeline-panel">
+                <div class="timeline-heading">
+                   <h4 style="color:#000; font-size:20px;">3.</h4>
+                      <h4 class="subheading" style="color:#000;">Agency Brainstorm and Strategy</h4>
+                </div>
+<div class="timeline-body">
+  <p class="text-muted" style="color:#fff;">This is the first step in the exploration phase of a new project,the team opens up to all ideas and possibilities,team members filters out the good ideas from the not-so-good ones inorder to come up in an agreement.</p>
+       </div>
+</div>
+</li>
+                        
+                        
+<li class="timeline-inverted">
+	<div class="timeline-image">
+    	<img class="img-circle img-responsive" src="img/about/4.jpg" alt="">
+     </div>
+<div class="timeline-panel">
+ <div class="timeline-heading">
+    <h4 style="color:#000;font-size:20px;">4.</h4>
+       <h4 class="subheading" style="color:#000;">Client Service make a Creative Brief</h4>
+	</div>
+<div class="timeline-body">
+ 	<p class="text-muted" style="color:#fff;">In this part the client explains the ins and outs of a project for the creative team, agency, or designer who’ll be working on it.This step helps in shaping the overall strategy and goals for the project. </p>
+       </div>
+ </div>
+</li>
+
+
+<li>
+ <div class="timeline-image">
+	<img class="img-circle img-responsive" src="img/about/3.jpg" alt="">
+ </div>
+<div class="timeline-panel">
+   <div class="timeline-heading">
+     <h4 style="color:#000;font-size:20px;">5.</h4>
+        <h4 class="subheading" style="color:#000;">Creative Team Design proposals</h4>
+   </div>
+<div class="timeline-body">
+  <p class="text-muted" style="color:#fff;">In step the creative team sit down and come up with a design proposal that they will present to the client matching there requirements that they needed on there project.</p>
+       </div>
+   </div>
+</li>
+
+
+<li class="timeline-inverted">
+  <div class="timeline-image">
+     <img class="img-circle img-responsive" src="img/about/4.jpg" alt="">
+  </div>
+  
+<div class="timeline-panel">
+   <div class="timeline-heading">
+   		<h4 style="color:#000;font-size:20px;">6.</h4>
+          <h4 class="subheading" style="color:#000;">Presentation of Creative Drafts and Costing to Client</h4>
+    </div>
+<div class="timeline-body">
+   <p class="text-muted" style="color:#fff;">After the creation of the proposal the creative team now presents the drafts and costings to the client so as to be aware of the pricing.</p>
+  </div>
+</div>
+</li>
+
+<li>
+<div class="timeline-image">
+ 	<img class="img-circle img-responsive" src="img/about/3.jpg" alt="">
+</div>
+
+<div class="timeline-panel">
+   <div class="timeline-heading">
+      <h4 style="color:#000;font-size:20px;">7.</h4>
+         <h4 class="subheading" style="color:#000;">Final Creative</h4>
+   </div>
+<div class="timeline-body">
+   <p class="text-muted" style="color:#fff;">In this step the creative team come up with the final break down after taking to the client and knowing what they want.</p>
+     </div>
+  </div>
+</li>
+
+<li class="timeline-inverted">
+  <div class="timeline-image">
+  	<img class="img-circle img-responsive" src="img/about/4.jpg" alt="">
+  </div>
+
+<div class="timeline-panel">
+   <div class="timeline-heading">
+    	<h4 style="color:#000;font-size:20px;">8.</h4>
+            <h4 class="subheading" style="color:#000;">Production</h4>
+   </div>
+<div class="timeline-body">
+	<p class="text-muted" style="color:#fff;">In this process the creative team collects all the information they gathered during there research and comes up with the final product of the project.</p>
+</div>
+ </div>
+</li>
+                        
+<li>
+<div class="timeline-image">
+ <img class="img-circle img-responsive" src="img/about/3.jpg" alt="">
+</div>
+<div class="timeline-panel">
+    <div class="timeline-heading">
+       <h4 style="color:#000;font-size:20px;">9.</h4>
+       		<h4 class="subheading" style="color:#000;">Implementation</h4>
+   </div>
+<div class="timeline-body">
+	<p class="text-muted" style="color:#fff;">After gathering everything that is needed in production, magic now happens in this step until the creative team comes up with the final delivery.</p>
+</div>
+</div>
+</li>
+                        
+<li class="timeline-inverted">
+ <div class="timeline-image">
+  <img class="img-circle img-responsive" src="img/about/4.jpg" alt="">
+</div>
+
+<div class="timeline-panel">
+ <div class="timeline-heading">
+   <h4 style="color:#000;font-size:20px;">10.</h4>
+      <h4 class="subheading" style="color:#000;">Assessments</h4>
+ </div>
+<div class="timeline-body">
+  <p class="text-muted" style="color:#fff;">After the final delivery know the estimation of the project happens in this step, when everything is fine its now handed over to the client.</p>
+  </div>
+</div> 
+</li>
+                        
+<li class="timeline-inverted">
                             <div class="timeline-image">
                                 <h4>Be Part
                                     <br>Of Our
@@ -381,72 +407,150 @@
                 </div>
             </div>
         </div>
-    </section>
+</section>
 
-    <!-- Team Section 
-    <section id="team" class="bg-light-gray">
+
+<!----------------------------------------------- Portfolio Grid Section ---------------------------------------------->
+    <section id="portfolio" class="bg-light-gray">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Our Amazing Team</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h2 class="section-heading" style="color:#fff;">Portfolio</h2>
+                    <h3 class="section-subheading text-muted" style="color:#fff;">The following are some of our works we have done.</h3>
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-4">
-                    <div class="team-member">
-                        <img src="img/team/1.jpg" class="img-responsive img-circle" alt="">
-                        <h4>Kay Garland</h4>
-                        <p class="text-muted">Lead Designer</p>
-                        <ul class="list-inline social-buttons">
-                            <li><a href="#"><i class="fa fa-twitter"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-facebook"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a>
-                            </li>
-                        </ul>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/roundicons.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Corporate Brochure</h4>
+                        <p class="text-muted">Marketing Design</p>
                     </div>
                 </div>
-                <div class="col-sm-4">
-                    <div class="team-member">
-                        <img src="img/team/2.jpg" class="img-responsive img-circle" alt="">
-                        <h4>Larry Parker</h4>
-                        <p class="text-muted">Lead Marketer</p>
-                        <ul class="list-inline social-buttons">
-                            <li><a href="#"><i class="fa fa-twitter"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-facebook"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a>
-                            </li>
-                        </ul>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/startup-framework.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Product Brochure</h4>
+                        <p class="text-muted">Communication Design</p>
                     </div>
                 </div>
-                <div class="col-sm-4">
-                    <div class="team-member">
-                        <img src="img/team/3.jpg" class="img-responsive img-circle" alt="">
-                        <h4>Diana Pertersen</h4>
-                        <p class="text-muted">Lead Developer</p>
-                        <ul class="list-inline social-buttons">
-                            <li><a href="#"><i class="fa fa-twitter"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-facebook"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a>
-                            </li>
-                        </ul>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/treehouse.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Publication Products</h4>
+                        <p class="text-muted">Publication Design</p>
                     </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/golden.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Brand Identity</h4>
+                        <p class="text-muted">Brand Design</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/escape.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Logo Marks</h4>
+                        <p class="text-muted">Brand Management</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/dreams.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Communication booklets</h4>
+                        <p class="text-muted">Training Solution</p>
+                    </div>
                 </div>
             </div>
         </div>
-    </section>-->
-    
+    </section>
+
+
+<!---------------------------------------------- Services Section ----------------------------------------------------->
+    <section id="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading" style="color:#000;">Services</h2>
+                    <h3 class="section-subheading text-muted" style="color:#08A8D8;">Below are kind of services we offer.</h3>
+                </div>
+            </div>
+
+<div class="row">
+           <div class="section-div col-xs-12">
+             <div class="myhead col-xs-12">EXPERTISE </div>
+               <div class="mytext col-xs-12" style="padding:30px;">
+                 <p class="text-center"><strong>Website Design</strong><br>Brand design • Project and Brand Management
+                    • Marketing and Communication Design<br><strong>Online/Digital Marketing</strong><br>Editing
+                     • Media Planning and Buying • Training Solutions</p>
+
+             </div>
+</div>
+           </div>
+
+<br>
+<div class="row">
+           <div class="section-div col-xs-12">
+             <div class="myhead col-xs-12">GRAPHIC DESIGN</div>
+               <div class="mytext col-xs-12" style="padding:30px;">
+                <p class="text-center"><strong>Brand Identity</strong><br>Logo marks • Publication Design<br><strong>Corporate Literature</strong><br>Corporate and product brochures • Print Communication Supervision • Promotional Items  • Retail Identities and Enviroment Signage</p>
+
+             </div>
+
+           </div>
+</div>
+</div>
+</section>
+
+
+
+
+
+
+<!-----------------------------------------------------  Team Section------------------------------------------------->
     <section id="team">
   <div class="container">
     <div class="row">
@@ -454,13 +558,13 @@
         <div class="col-lg-12">
 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Our Amazing Team</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h3 class="section-subheading text-muted">Meet some of our staff.</h3>
                 </div>
-                
+
                           <div class="row pt-md">
             <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 profile">
               <div class="img-box">
-                <img src="http://nabeel.co.in/files/bootsnipp/team/1.jpg" class="img-responsive">
+                <img src="img/team/12.jpg" class="img-responsive">
                 <ul class="text-center">
                   <a href="#"><li><i class="fa fa-facebook"></i></li></a>
                   <a href="#"><li><i class="fa fa-twitter"></i></li></a>
@@ -469,11 +573,10 @@
               </div>
               <h1>Marrie Doi</h1>
               <h2>Co-founder/ Operations</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
             </div>
             <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 profile">
               <div class="img-box">
-                <img src="http://nabeel.co.in/files/bootsnipp/team/2.jpg" class="img-responsive">
+                <img src="img/team/1.png" class="img-responsive">
                 <ul class="text-center">
                   <a href="#"><li><i class="fa fa-facebook"></i></li></a>
                   <a href="#"><li><i class="fa fa-twitter"></i></li></a>
@@ -482,11 +585,10 @@
               </div>
               <h1>Christopher Di</h1>
               <h2>Co-founder/ Projects</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
             </div>
             <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 profile">
               <div class="img-box">
-                <img src="http://nabeel.co.in/files/bootsnipp/team/3.jpg" class="img-responsive">
+                <img src="img/team/12.jpg" class="img-responsive">
                 <ul class="text-center">
                   <a href="#"><li><i class="fa fa-facebook"></i></li></a>
                   <a href="#"><li><i class="fa fa-twitter"></i></li></a>
@@ -494,39 +596,12 @@
                 </ul>
               </div>
               <h1>Heather H</h1>
-              <h2>Co-founder/ Marketing</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+              <h2>Co-founder/Marketing</h2>
             </div>
+
             <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 profile">
               <div class="img-box">
-                <img src="http://nabeel.co.in/files/bootsnipp/team/4.jpg" class="img-responsive">
-                <ul class="text-center">
-                  <a href="#"><li><i class="fa fa-facebook"></i></li></a>
-                  <a href="#"><li><i class="fa fa-twitter"></i></li></a>
-                  <a href="#"><li><i class="fa fa-linkedin"></i></li></a>
-                </ul>
-              </div>
-              <h1>John Doe</h1>
-              <h2>Designer</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-            </div>
-            
-            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 profile">
-              <div class="img-box">
-                <img src="http://nabeel.co.in/files/bootsnipp/team/5.jpg" class="img-responsive">
-                <ul class="text-center">
-                  <a href="#"><li><i class="fa fa-facebook"></i></li></a>
-                  <a href="#"><li><i class="fa fa-twitter"></i></li></a>
-                  <a href="#"><li><i class="fa fa-linkedin"></i></li></a>
-                </ul>
-              </div>
-              <h1>Peter John</h1>
-              <h2>Web Developer</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-            </div>
-            <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 profile">
-              <div class="img-box">
-                <img src="http://nabeel.co.in/files/bootsnipp/team/6.jpg" class="img-responsive">
+                <img src="img/team/3.png" class="img-responsive">
                 <ul class="text-center">
                   <a href="#"><li><i class="fa fa-facebook"></i></li></a>
                   <a href="#"><li><i class="fa fa-twitter"></i></li></a>
@@ -535,34 +610,6 @@
               </div>
               <h1>Cherry John</h1>
               <h2>Fullstack Developer</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-            </div>
-            <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 profile">
-              <div class="img-box">
-                <img src="http://nabeel.co.in/files/bootsnipp/team/7.jpg" class="img-responsive">
-                <ul class="text-center">
-                  <a href="#"><li><i class="fa fa-facebook"></i></li></a>
-                  <a href="#"><li><i class="fa fa-twitter"></i></li></a>
-                  <a href="#"><li><i class="fa fa-linkedin"></i></li></a>
-                </ul>
-              </div>
-              <h1>Frank Martin</h1>
-              <h2>Co-founder/ Operations</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-            </div>
-          
-            <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 profile">
-              <div class="img-box">
-                <img src="http://nabeel.co.in/files/bootsnipp/team/12.jpg" class="img-responsive">
-                <ul class="text-center">
-                  <a href="#"><li><i class="fa fa-facebook"></i></li></a>
-                  <a href="#"><li><i class="fa fa-twitter"></i></li></a>
-                  <a href="#"><li><i class="fa fa-linkedin"></i></li></a>
-                </ul>
-              </div>
-              <h1>Cherry John</h1>
-              <h2>Fullstack Developer</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
             </div>
           </div>
         </div>
@@ -572,41 +619,43 @@
 </section>
 
 
-    <!-- Clients Aside -->
+
+<!-------------------------------------------- Clients Aside ------------------------------------------------------->
     <aside class="clients">
         <div class="container">
             <div class="row">
                 <div class="col-md-3 col-sm-6">
                     <a href="#">
-                        <img src="../img/logos/envato.jpg" class="img-responsive img-centered" alt="">
+                        <img src="img/logos/envato.jpg" class="img-responsive img-centered" alt="">
                     </a>
                 </div>
                 <div class="col-md-3 col-sm-6">
                     <a href="#">
-                        <img src="../img/logos/designmodo.jpg" class="img-responsive img-centered" alt="">
+                        <img src="img/logos/designmodo.jpg" class="img-responsive img-centered" alt="">
                     </a>
                 </div>
                 <div class="col-md-3 col-sm-6">
                     <a href="#">
-                        <img src="../img/logos/themeforest.jpg" class="img-responsive img-centered" alt="">
+                        <img src="img/logos/themeforest.jpg" class="img-responsive img-centered" alt="">
                     </a>
                 </div>
                 <div class="col-md-3 col-sm-6">
                     <a href="#">
-                        <img src="../img/logos/creative-market.jpg" class="img-responsive img-centered" alt="">
+                        <img src="img/logos/creative-market.jpg" class="img-responsive img-centered" alt="">
                     </a>
                 </div>
             </div>
         </div>
     </aside>
 
-    <!-- Contact Section -->
+
+ <!----------------------------------------- Contact Section --------------------------------------------------------->
     <section id="contact">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Contact Us</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h3 class="section-subheading text-muted">Feel free to talk to us.</h3>
                 </div>
             </div>
             <div class="row">
@@ -645,13 +694,18 @@
         </div>
     </section>
 
-    <footer class="col-xs-12 col-md-6 col-sm-12" style="background-color:#fed136; height:150px; width:100%;">
+    <footer class="col-xs-12 col-md-12 col-sm-12" style="background-color:#08A8D8; height:100px; width:100%;">
         <div class="container">
             <div class="row">
-                <div class="col-md-4 col-xs-12 col-sm-12">
-                    <span class="copyright">Copyright &copy; Your Website 2016</span>
+                <div class="col-md-3 col-xs-12 col-sm-12">
+                    <span class="copyright">Copyright &copy; PastelBranding 2017</span>
                 </div>
-                <div class="col-md-4">
+                
+                <div class="col-md-3 col-xs-12 col-sm-12">
+                <span class="copyright"><a href="http://reconbranding.com/" target="_blank">Designed by Reconbranding.com </a></span>
+                </div>
+                
+                <div class="col-md-3 col-xs-12 col-sm-12">
                     <ul class="list-inline social-buttons">
                         <li><a href="#"><i class="fa fa-twitter"></i></a>
                         </li>
@@ -661,8 +715,8 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-md-4 col-xs-12 col-sm-12">
-                    <ul class="list-inline quicklinks">
+                <div class="col-md-3 col-xs-12 col-sm-12">
+                    <ul class="list-inline quicklinks" style="color:#fff;">
                         <li><a href="#">Privacy Policy</a>
                         </li>
                         <li><a href="#">Terms of Use</a>
@@ -673,7 +727,7 @@
         </div>
     </footer>
 
-    <!-- Portfolio Modals -->
+<!----------------------------------------------- Portfolio Modals-------------------------------------------------------->
     <!-- Use the modals below to showcase details about your portfolio projects! -->
 
     <!-- Portfolio Modal 1 -->
@@ -691,16 +745,15 @@
                         <div class="col-lg-8 col-lg-offset-2">
                             <div class="modal-body">
                                 <!-- Project Details Go Here -->
-                                <h2>Project Name</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-responsive img-centered" src="file:///C|/xampp/htdocs/startbootstrap-agency-gh-pages/img/portfolio/roundicons-free.png" alt="">
-                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                <p>
-                                    <strong>Want these icons in this portfolio item sample?</strong>You can download 60 of them for free, courtesy of <a href="https://getdpd.com/cart/hoplink/18076?referrer=bvbo4kax5k8ogc">RoundIcons.com</a>, or you can purchase the 1500 icon set <a href="https://getdpd.com/cart/hoplink/18076?referrer=bvbo4kax5k8ogc">here</a>.</p>
+                                <h2>Corporate Brochure</h2>
+                                <p class="item-intro text-muted">Marketing Design</p>
+                                <img class="img-responsive img-centered" src="img/portfolio/roundicons-free.png" alt="">
+                                <p>This kind of project can focus entirely on the business and its offerings, thereby getting the undivided attention of all potential customers who browse through them thus increasing business.</p>
+
                                 <ul class="list-inline">
-                                    <li>Date: July 2014</li>
-                                    <li>Client: Round Icons</li>
-                                    <li>Category: Graphic Design</li>
+                                    <li>Date: August 2017</li>
+                                    <li>Client: Corporate Brochure</li>
+                                    <li>Category: Marketing Design</li>
                                 </ul>
                                 <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
                             </div>
@@ -725,11 +778,10 @@
                     <div class="row">
                         <div class="col-lg-8 col-lg-offset-2">
                             <div class="modal-body">
-                                <h2>Project Heading</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-responsive img-centered" src="file:///C|/xampp/htdocs/startbootstrap-agency-gh-pages/img/portfolio/startup-framework-preview.png" alt="">
-                                <p><a href="http://designmodo.com/startup/?u=787">Startup Framework</a> is a website builder for professionals. Startup Framework contains components and complex blocks (PSD+HTML Bootstrap themes and templates) which can easily be integrated into almost any design. All of these components are made in the same style, and can easily be integrated into projects, allowing you to create hundreds of solutions for your future projects.</p>
-                                <p>You can preview Startup Framework <a href="http://designmodo.com/startup/?u=787">here</a>.</p>
+                                <h2>Product Brochure</h2>
+                                <p class="item-intro text-muted">Communication design</p>
+                          <img class="img-responsive img-centered" src="img/portfolio/startup-framework-preview.png" alt="">
+                              <p>Communications designs helps at work for you in communicating your business goals, Missions and Vision Effectively. Communications can be:Communications Process: • Personal: Building relationships and Improving In order to apply effective communications, the Relationships with Good Communication communication steps process.advancement: Better speaker, • A message: what need to be communicated •  </p>
                                 <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
                             </div>
                         </div>
@@ -754,11 +806,11 @@
                         <div class="col-lg-8 col-lg-offset-2">
                             <div class="modal-body">
                                 <!-- Project Details Go Here -->
-                                <h2>Project Name</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-responsive img-centered" src="file:///C|/xampp/htdocs/startbootstrap-agency-gh-pages/img/portfolio/treehouse-preview.png" alt="">
-                                <p>Treehouse is a free PSD web template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. This is bright and spacious design perfect for people or startup companies looking to showcase their apps or other projects.</p>
-                                <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/treehouse-free-psd-web-template/">FreebiesXpress.com</a>.</p>
+                                <h2>Publication Products</h2>
+                                <p class="item-intro text-muted">Publication Design</p>
+                                <img class="img-responsive img-centered" src="img/portfolio/treehouse-preview.png" alt="">
+                                <p>Calendars aren’t just lists of events. They are the gathering point for a community or a company, demonstrate the tastes or activities of an individual. But most of all they are filled with possibility and excitement for what is coming in the future, of stories yet to be told.</p>
+
                                 <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
                             </div>
                         </div>
@@ -783,11 +835,10 @@
                         <div class="col-lg-8 col-lg-offset-2">
                             <div class="modal-body">
                                 <!-- Project Details Go Here -->
-                                <h2>Project Name</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-responsive img-centered" src="file:///C|/xampp/htdocs/startbootstrap-agency-gh-pages/img/portfolio/golden-preview.png" alt="">
-                                <p>Start Bootstrap's Agency theme is based on Golden, a free PSD website template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. Golden is a modern and clean one page web template that was made exclusively for Best PSD Freebies. This template has a great portfolio, timeline, and meet your team sections that can be easily modified to fit your needs.</p>
-                                <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/golden-free-one-page-web-template/">FreebiesXpress.com</a>.</p>
+                                <h2>Brand Identity</h2>
+                                <p class="item-intro text-muted">Brand Design</p>
+                                <img class="img-responsive img-centered" src="img/portfolio/golden-preview.png" alt="">
+                                <p>Banner advertisement is always the preferred way to market your brand.When it comes to branding, banner advertisement is always one of the most effective way to market your service or just to make people know your brand. What really matter is design of your banner.</p>
                                 <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
                             </div>
                         </div>
@@ -812,11 +863,11 @@
                         <div class="col-lg-8 col-lg-offset-2">
                             <div class="modal-body">
                                 <!-- Project Details Go Here -->
-                                <h2>Project Name</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-responsive img-centered" src="file:///C|/xampp/htdocs/startbootstrap-agency-gh-pages/img/portfolio/escape-preview.png" alt="">
-                                <p>Escape is a free PSD web template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. Escape is a one page web template that was designed with agencies in mind. This template is ideal for those looking for a simple one page solution to describe your business and offer your services.</p>
-                                <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/escape-one-page-psd-web-template/">FreebiesXpress.com</a>.</p>
+                                <h2>Logo Marks</h2>
+                                <p class="item-intro text-muted">Brand Management.</p>
+                                <img class="img-responsive img-centered" src="img/portfolio/escape-preview.png" alt="">
+                                <p>Your logo is a visual cornerstone of a company's brand. Your company's identity is visually expressed through its logo, which, along your company's name', is one of the main things that makes your business memorable.</p>
+
                                 <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
                             </div>
                         </div>
@@ -841,11 +892,11 @@
                         <div class="col-lg-8 col-lg-offset-2">
                             <div class="modal-body">
                                 <!-- Project Details Go Here -->
-                                <h2>Project Name</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-responsive img-centered" src="file:///C|/xampp/htdocs/startbootstrap-agency-gh-pages/img/portfolio/dreams-preview.png" alt="">
-                                <p>Dreams is a free PSD web template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. Dreams is a modern one page web template designed for almost any purpose. It’s a beautiful template that’s designed with the Bootstrap framework in mind.</p>
-                                <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/dreams-free-one-page-web-template/">FreebiesXpress.com</a>.</p>
+                                <h2>Print Communication Supervision</h2>
+                                <p class="item-intro text-muted">Training Solutions</p>
+                                <img class="img-responsive img-centered" src="img/portfolio/dreams-preview.png" alt="">
+                                <p>A corporate communication booklet holds all the important information about your corporation. It will include your Articles of Incorporation/Organization, a shareholder ledger, minutes from shareholders meetings, company seal, and so on. These documents are the essential documents of the company and should be kept in a safe place.</p>
+
                                 <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
                             </div>
                         </div>
@@ -855,21 +906,45 @@
         </div>
     </div>
 
+
+
+
+
+
+
+</div>
+    </div>
+  </div>
+</div>
+</div>
+
+
+ <script>
+
+
+
+    </script>
+
+
+
     <!-- jQuery -->
-    <script src="file:///C|/xampp/htdocs/startbootstrap-agency-gh-pages/vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/jquery/jquery.min.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="file:///C|/xampp/htdocs/startbootstrap-agency-gh-pages/vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
 
     <!-- Plugin JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js" integrity="sha384-mE6eXfrb8jxl0rzJDBRanYqgBxtJ6Unn4/1F7q4xRRyIw7Vdg9jP4ycT7x1iVsgb" crossorigin="anonymous"></script>
 
     <!-- Contact Form JavaScript -->
-    <script src="file:///C|/xampp/htdocs/startbootstrap-agency-gh-pages/js/jqBootstrapValidation.js"></script>
-    <script src="file:///C|/xampp/htdocs/startbootstrap-agency-gh-pages/js/contact_me.js"></script>
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
 
     <!-- Theme JavaScript -->
-    <script src="file:///C|/xampp/htdocs/startbootstrap-agency-gh-pages/js/agency.min.js"></script>
+    <script src="js/agency.min.js"></script>
+
+
+
 
 </body>
 
